@@ -1,9 +1,7 @@
 [build]
+  base = "portfolio-master"
   command = "npm run build"
   publish = "build"
 
-[build.environment]
-  NODE_VERSION = "16.20.2"
-  
 [build.environment]
   CI = "false"
